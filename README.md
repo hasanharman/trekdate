@@ -1,8 +1,29 @@
-# trekdate 🖖
+<div align="center">
+  <img src="logo.png" alt="trekdate logo" width="180" />
+  <h1>trekdate 🖖</h1>
+  <p><strong>Convert JavaScript dates to Star Trek: The Next Generation stardates — the same system used by Captain Jean-Luc Picard.</strong></p>
 
-[![npm](https://img.shields.io/npm/v/trekdate)](https://npmjs.com/package/trekdate)
+  <p>
+    <a href="#how-it-works">How It Works</a> •
+    <a href="#install">Install</a> •
+    <a href="#usage">Usage</a> •
+    <a href="#api">API</a> •
+    <a href="#notable-stardates">Notable Stardates</a>
+  </p>
 
-Convert JavaScript dates to **Star Trek: The Next Generation** stardates — the same system used by Captain Jean-Luc Picard.
+  <p>
+    <a href="https://npmjs.com/package/trekdate"><img src="https://img.shields.io/npm/v/trekdate?color=cc3534&logo=npm&logoColor=white" alt="npm" /></a>
+    <img src="https://img.shields.io/npm/dm/trekdate?color=364fc7&logo=npm&logoColor=white" alt="downloads" />
+    <img src="https://img.shields.io/badge/node-%3E%3D14-339933?logo=node.js&logoColor=white" alt="node" />
+    <img src="https://img.shields.io/github/license/hasanharman/trekdate" alt="license" />
+  </p>
+
+  <p>
+    <code>npm install trekdate</code> · <code>pnpm add trekdate</code> · <code>yarn add trekdate</code> · <code>bun add trekdate</code>
+  </p>
+</div>
+
+<br />
 
 <p align="center">
   <img src="https://static.wikia.nocookie.net/memoryalpha/images/c/cf/Jean-Luc_Picard%2C_2370.jpg/revision/latest/scale-to-width-down/350?cb=20190324004719&path-prefix=en" alt="Captain Jean-Luc Picard on the bridge of the USS Enterprise-D" width="350" />
@@ -35,14 +56,13 @@ Current dates (21st century) produce negative stardates — that's correct! We'r
 ## Install
 
 ```bash
-# npm
 npm install trekdate
-
-# pnpm
+# or
 pnpm add trekdate
-
-# yarn
+# or
 yarn add trekdate
+# or
+bun add trekdate
 ```
 
 ## Usage
