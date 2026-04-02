@@ -1,5 +1,7 @@
 # trekdate 🖖
 
+[![npm](https://img.shields.io/npm/v/trekdate)](https://npmjs.com/package/trekdate)
+
 Convert JavaScript dates to **Star Trek: The Next Generation** stardates — the same system used by Captain Jean-Luc Picard.
 
 <p align="center">
