@@ -2,6 +2,12 @@
 
 Convert JavaScript dates to **Star Trek: The Next Generation** stardates — the same system used by Captain Jean-Luc Picard.
 
+<p align="center">
+  <img src="https://static.wikia.nocookie.net/memoryalpha/images/c/cf/Jean-Luc_Picard%2C_2370.jpg/revision/latest/scale-to-width-down/350?cb=20190324004719&path-prefix=en" alt="Captain Jean-Luc Picard on the bridge of the USS Enterprise-D" width="350" />
+  <br />
+  <em>Captain Jean-Luc Picard — USS Enterprise NCC-1701-D</em>
+</p>
+
 > *"Captain's log, stardate 41153.7. Our destination is planet Deneb IV…"*
 
 ## How It Works
@@ -27,7 +33,14 @@ Current dates (21st century) produce negative stardates — that's correct! We'r
 ## Install
 
 ```bash
+# npm
 npm install trekdate
+
+# pnpm
+pnpm add trekdate
+
+# yarn
+yarn add trekdate
 ```
 
 ## Usage

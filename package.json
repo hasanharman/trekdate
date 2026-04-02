@@ -4,6 +4,18 @@
   "description": "Convert JavaScript dates to Star Trek stardates",
   "main": "index.js",
   "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js",
+      "default": "./index.js"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,13 +23,20 @@
     "stardate",
     "star-trek",
     "date",
-    "converter"
+    "converter",
+    "tng",
+    "picard",
+    "captain-log"
   ],
   "author": "Hasan Harman",
   "license": "MIT",
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hasanharman/trekdate.git"
+    "url": "git+https://github.com/hasanharman/trekdate.git"
+  },
+  "homepage": "https://github.com/hasanharman/trekdate#readme",
+  "bugs": {
+    "url": "https://github.com/hasanharman/trekdate/issues"
   }
 }
