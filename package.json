@@ -1,0 +1,23 @@
+{
+  "name": "trekdate",
+  "version": "1.0.0",
+  "description": "Convert JavaScript dates to Star Trek stardates",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stardate",
+    "star-trek",
+    "date",
+    "converter"
+  ],
+  "author": "Hasan Harman",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasanharman/trekdate.git"
+  }
+}
