@@ -17,10 +17,6 @@
     <img src="https://img.shields.io/badge/node-%3E%3D14-339933?logo=node.js&logoColor=white" alt="node" />
     <img src="https://img.shields.io/github/license/hasanharman/trekdate" alt="license" />
   </p>
-
-  <p>
-    <code>npm install trekdate</code> · <code>pnpm add trekdate</code> · <code>yarn add trekdate</code> · <code>bun add trekdate</code>
-  </p>
 </div>
 
 <br />
